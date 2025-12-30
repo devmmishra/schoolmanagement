@@ -1,0 +1,18 @@
+{
+  "name": "school-management-backend",
+  "version": "1.0.0",
+  "description": "School management system API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1",
+    "body-parser": "^1.20.2"
+  }
+}
